@@ -4,7 +4,7 @@
 #
 Name     : c_rehash
 Version  : 1
-Release  : 3
+Release  : 4
 Source0  : c_rehash.c
 Summary  : No detailed summary available
 Group    : Development/Tools
