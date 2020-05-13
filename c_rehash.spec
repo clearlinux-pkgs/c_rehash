@@ -1,6 +1,6 @@
 Name     : c_rehash
 Version  : 1
-Release  : 5
+Release  : 6
 Source0  : c_rehash.c
 Summary  : No detailed summary available
 Group    : Development/Tools
@@ -27,12 +27,12 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1506022851
+export SOURCE_DATE_EPOCH=1589405084
 gcc $(CFLAGS) %{SOURCE0} -o c_rehash -lssl -lcrypto
 
 
 %install
-export SOURCE_DATE_EPOCH=1506022851
+export SOURCE_DATE_EPOCH=1589405084
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/bin
 cp c_rehash %{buildroot}/usr/bin
