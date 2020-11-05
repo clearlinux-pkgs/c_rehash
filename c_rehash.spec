@@ -1,6 +1,6 @@
 Name     : c_rehash
 Version  : 1
-Release  : 6
+Release  : 7
 Source0  : c_rehash.c
 Summary  : No detailed summary available
 Group    : Development/Tools
@@ -26,7 +26,7 @@ mkdir c_rehash-1
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
-export LANG=C
+export LANG=C.UTF-8
 export SOURCE_DATE_EPOCH=1589405084
 gcc $(CFLAGS) %{SOURCE0} -o c_rehash -lssl -lcrypto
 
