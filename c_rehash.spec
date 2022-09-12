@@ -1,6 +1,6 @@
 Name     : c_rehash
 Version  : 1
-Release  : 8
+Release  : 9
 Source0  : c_rehash.c
 Summary  : No detailed summary available
 Group    : Development/Tools
